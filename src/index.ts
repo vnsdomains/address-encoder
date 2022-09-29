@@ -1579,6 +1579,7 @@ export const formats: IFormat[] = [
   evmChain('TOMO', 88),
   evmChain('POA', 99),
   evmChain('XDAI', 100),
+  evmChain('VLX_EVM', 106),
   evmChain('TT', 108),
   evmChain('MATIC', 137),
   evmChain('EWT', 246),
