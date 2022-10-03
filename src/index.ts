@@ -1456,7 +1456,7 @@ export const formats: IFormat[] = [
   getConfig('XEM', 43, b32encodeXemAddr, b32decodeXemAddr),
   bitcoinBase58Chain('AIB', 55, [[0x17]], [[0x05]]),
   bitcoinChain('SYS', 57, 'sys', [[0x3f]], [[0x05]]),
-  hexChecksumChain('ETH', 60),
+  hexChecksumChain('VLX', 60),
   hexChecksumChain('ETC_LEGACY', 61),
   getConfig('ICX', 74, icxAddressEncoder, icxAddressDecoder),
   bitcoinBase58Chain('XVG',77, [[0x1E]], [[0x21]]),
@@ -1579,7 +1579,7 @@ export const formats: IFormat[] = [
   evmChain('TOMO', 88),
   evmChain('POA', 99),
   evmChain('XDAI', 100),
-  evmChain('VLX', 106),
+  evmChain('ETH', 106), // TODO: think about this
   evmChain('TT', 108),
   evmChain('MATIC', 137),
   evmChain('EWT', 246),
